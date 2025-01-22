@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - SEOPress &#8211; On-site SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-10 17:19:34+0000\n"
+"PO-Revision-Date: 2025-01-22 09:35:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,48 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - SEOPress &#8211; On-site SEO - Stable (latest release)\n"
+
+#: inc/admin/wizard/admin-wizard.php:1603
+msgid "Site Audit to find and fix SEO issues."
+msgstr "Audit de site pour trouver et corriger les problèmes de SEO."
+
+#: inc/admin/metaboxes/admin-metaboxes-content-analysis-form.php:67
+#: src/Services/I18nUniversalMetabox.php:736
+msgid "(URL using this keyword)"
+msgstr "(URL utilisant ce mot-clé)"
+
+#: inc/admin/callbacks/Titles.php:784
+msgid "This custom taxonomy is <strong>NOT</strong> excluded from your XML sitemaps despite the fact that it is set to <strong>NOINDEX</strong>. We recommend that you check this out from the <a href=\"%s\">XML sitemap settings</a>."
+msgstr "Cette taxonomie personnalisée n‘est <strong>PAS</strong> exclus du plan de site XML malgré le fait qu‘elle soit marquée comme <strong>NOINDEX</strong>. Nous vous recommandons de vérifier cela depuis les <a href=\"%s\">réglages du plan de site</a>."
+
+#: inc/admin/blocks/features-list.php:12
+msgid "Toggle simple / default view"
+msgstr "Permuter la vue simple / par défaut."
+
+#: inc/admin/admin-pages/Tools.php:213 inc/admin/wizard/admin-wizard.php:645
+msgid "Import metadata from %s, including titles and meta descriptions."
+msgstr "Importer les métadonnées depuis %s, incluant titres et méta descriptions."
+
+#: inc/admin/admin-pages/Tools.php:201 inc/admin/wizard/admin-wizard.php:633
+msgid "Select %s for migration"
+msgstr "Sélectionner %s pour la migration"
+
+#: inc/admin/admin-pages/Tools.php:191 inc/admin/wizard/admin-wizard.php:623
+msgid "Select an SEO plugin to migrate from (you don't have to enable the selected one to run the import):"
+msgstr "Sélectionnez une extension SEO à partir de laquelle migrer (vous n‘avez pas besoin d‘activer celle sélectionnée pour exécuter l‘importation) :"
+
+#: public/editor/blocks/faq/block.json
+msgctxt "block title"
+msgid "FAQ (legacy)"
+msgstr "FAQ (ancien)"
+
+#: inc/admin/callbacks/Titles.php:1488
+msgid "Note that the alternative site title declared in the Titles and metas settings is used by this."
+msgstr "Notez que le titre du site alternatif déclaré dans les réglages Titres et métas est utilisé par celui-ci."
+
+#: inc/admin/callbacks/Titles.php:1484 inc/admin/settings/Titles.php:291
+msgid "Remove Website schema"
+msgstr "Retirer le schéma Website"
 
 #: inc/admin/blocks/tasks.php:104
 msgid "Check license"
@@ -60,6 +102,10 @@ msgstr "Corriger les problèmes de compatibilité avec l‘extension de mise en 
 #: inc/admin/wizard/admin-wizard.php:1609
 msgid "Connect your site with <strong>Google Search Console</strong> to get relevant data: clicks, positions, impressions and CTR."
 msgstr "Connectez votre site à la <strong>Google Search Console</strong> pour obtenir des données pertinentes : clics, positions, impressions et CTR."
+
+#: inc/admin/wizard/admin-wizard.php:1606
+msgid "Receive <strong>SEO alerts by email / Slack</strong>, twice a day, as long as the problem persists. Act before it’t too late!"
+msgstr "Recevez des <strong>alertes SEO par e-mail/Slack</strong>, deux fois par jour, tant que le problème persiste. Agissez avant qu‘il ne soit trop tard !"
 
 #: inc/admin/wizard/admin-wizard.php:498
 msgid "Here we go!"
