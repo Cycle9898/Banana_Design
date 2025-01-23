@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More Than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-22 11:34:54+0000\n"
+"PO-Revision-Date: 2025-01-22 15:09:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -405,12 +405,6 @@ msgstr "Dimensions"
 msgid "Minimalist"
 msgstr "Minimaliste"
 
-#: modules/link-in-bio/base/widget-link-in-bio-base.php:284
-#: assets/js/packages/editor-controls/editor-controls.js:8
-#: assets/js/packages/editor-controls/editor-controls.strings.js:37
-msgid "Add item"
-msgstr "Ajouter un élément"
-
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:242
 msgid "Images Per Row"
 msgstr "Images par rangée"
@@ -423,10 +417,6 @@ msgstr "Ajoutez jusqu’à <b>%d</b> images"
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:1023
 msgid "Image Links"
 msgstr "Liens d’image"
-
-#: modules/floating-buttons/module.php:322
-msgid "Entire Site"
-msgstr "Tout le site"
 
 #: modules/floating-buttons/module.php:236
 msgid "Instances"
@@ -459,6 +449,16 @@ msgstr "Discussion unique"
 #: modules/floating-buttons/module.php:389
 msgid "Add a Floating element so your users can easily get in touch!"
 msgstr "Ajoutez un bouton flottant pour que vos utilisateurs et utilisatrices puissent facilement prendre contact avec vous !"
+
+#: modules/link-in-bio/base/widget-link-in-bio-base.php:284
+#: assets/js/packages/editor-controls/editor-controls.js:8
+#: assets/js/packages/editor-controls/editor-controls.strings.js:37
+msgid "Add item"
+msgstr "Ajouter un élément"
+
+#: modules/floating-buttons/module.php:322
+msgid "Entire Site"
+msgstr "Tout le site"
 
 #: modules/floating-buttons/base/widget-contact-button-base.php:3083
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1488
@@ -507,10 +507,6 @@ msgstr "Couleur du texte et des icônes"
 #: modules/floating-buttons/base/widget-contact-button-base.php:2441
 msgid "Link Spacing"
 msgstr "Espacement du lien"
-
-#: modules/floating-buttons/base/widget-contact-button-base.php:2391
-msgid "Info Links"
-msgstr "Liens d’info"
 
 #: modules/floating-buttons/base/widget-contact-button-base.php:2257
 msgid "Resource Links"
@@ -562,10 +558,6 @@ msgstr "Détails du contact"
 msgid "Display Text"
 msgstr "Texte affiché"
 
-#: modules/floating-buttons/base/widget-contact-button-base.php:146
-msgid "Tooltip"
-msgstr "Infobulle"
-
 #: modules/floating-buttons/base/widget-contact-button-base.php:86
 msgid "Call now"
 msgstr "Appeler maintenant"
@@ -584,10 +576,6 @@ msgstr "Point de notification"
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:759
 msgid "Paste Waze link"
 msgstr "Coller le lien Waze"
-
-#: modules/floating-buttons/base/widget-contact-button-base.php:540
-msgid "Call to Action"
-msgstr "Appel à l’action"
 
 #: modules/editor-events/module.php:54
 msgid "Editor events processing"
@@ -621,6 +609,18 @@ msgstr "Réduire la dimension"
 #: modules/floating-buttons/base/widget-floating-bars-base.php:1475
 msgid "Responsive visibility will take effect only on preview mode or live page, and not while editing in Elementor."
 msgstr "La visibilité responsive sera effective uniquement en mode prévisualisation ou sur la page en direct, et non pas lors de la modification dans Elementor."
+
+#: modules/floating-buttons/base/widget-contact-button-base.php:2391
+msgid "Info Links"
+msgstr "Liens d’info"
+
+#: modules/floating-buttons/base/widget-contact-button-base.php:540
+msgid "Call to Action"
+msgstr "Appel à l’action"
+
+#: modules/floating-buttons/base/widget-contact-button-base.php:146
+msgid "Tooltip"
+msgstr "Infobulle"
 
 #: modules/element-cache/module.php:141
 msgid "1 Year"
@@ -918,12 +918,6 @@ msgstr "Ajoutez jusqu’à <b>%d</b> icônes"
 msgid "Send Button"
 msgstr "Bouton « Envoyer »"
 
-#: modules/floating-buttons/base/widget-contact-button-base.php:1644
-#: modules/floating-buttons/base/widget-floating-bars-base.php:295
-#: modules/floating-buttons/base/widget-floating-bars-base.php:1036
-msgid "Close Button"
-msgstr "Bouton « Fermer »"
-
 #: modules/floating-buttons/base/widget-contact-button-base.php:1658
 msgid "Close Button Color"
 msgstr "Couleur du bouton « Fermer »"
@@ -967,12 +961,6 @@ msgstr "Robert Dupont"
 #: modules/floating-buttons/base/widget-contact-button-base.php:65
 msgid "Chat Button"
 msgstr "Bouton de discussion"
-
-#: modules/floating-buttons/base/widget-contact-button-base.php:921
-#: modules/link-in-bio/base/widget-link-in-bio-base.php:532
-#: modules/link-in-bio/base/widget-link-in-bio-base.php:780
-msgid "Enter your username"
-msgstr "Saisissez votre identifiant"
 
 #: modules/element-cache/module.php:43
 msgid "Element Caching"
@@ -1022,10 +1010,6 @@ msgstr "Fenêtre de discussion"
 #: modules/floating-buttons/base/widget-contact-button-base.php:1715
 msgid "Message Bubble"
 msgstr "Bulle de message"
-
-#: modules/link-in-bio/base/widget-link-in-bio-base.php:877
-msgid "About Heading"
-msgstr "À propos des titres"
 
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:543
 msgid "Add CTA Link"
@@ -1097,6 +1081,16 @@ msgstr "Créer des formulaires et collectez des prospects %s avec Elementor Pro"
 msgid "Messenger"
 msgstr "Messager"
 
+#: modules/link-in-bio/base/widget-link-in-bio-base.php:877
+msgid "About Heading"
+msgstr "À propos des titres"
+
+#: modules/floating-buttons/base/widget-contact-button-base.php:921
+#: modules/link-in-bio/base/widget-link-in-bio-base.php:532
+#: modules/link-in-bio/base/widget-link-in-bio-base.php:780
+msgid "Enter your username"
+msgstr "Saisissez votre identifiant"
+
 #: modules/floating-buttons/base/widget-contact-button-base.php:839
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:438
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:679
@@ -1115,6 +1109,12 @@ msgstr "Préparation de repas"
 #: modules/link-in-bio/base/widget-link-in-bio-base.php:91
 msgid "Top 10 Recipes"
 msgstr "Les 10 meilleures recettes"
+
+#: modules/floating-buttons/base/widget-contact-button-base.php:1644
+#: modules/floating-buttons/base/widget-floating-bars-base.php:295
+#: modules/floating-buttons/base/widget-floating-bars-base.php:1036
+msgid "Close Button"
+msgstr "Bouton « Fermer »"
 
 #: modules/floating-buttons/base/widget-contact-button-base.php:305
 #: modules/floating-buttons/base/widget-contact-button-base.php:858
